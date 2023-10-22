@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Vertiefung: Projekt Counter</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Counter</h1>
+      <h3 id="result"></h3>
+      <div>
+        <input id="plus1" type="button" value="+1" onclick="resultPlus(1)" />
+        <input
+          id="resultMinus100"
+          type="button"
+          value="-1"
+          onclick="resultPlus(-1)"
+        />
+        <input id="plus10" type="button" value="+10" onclick="resultPlus(10)" />
+        <input
+          id="minus10"
+          type="button"
+          value="-10"
+          onclick="resultPlus(-10)"
+        />
+        <input
+          id="plus100"
+          type="button"
+          value="+100"
+          onclick="resultPlus(100)"
+        />
+        <input
+          id="minus100"
+          type="button"
+          value="-100"
+          onclick="resultPlus(-100)"
+        />
+        <input type="reset" id="reset" value="Reset" onclick="reset()" />
+        <input type="button" id="multi2" value="*2" onclick="resultMulti(2)" />
+      </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

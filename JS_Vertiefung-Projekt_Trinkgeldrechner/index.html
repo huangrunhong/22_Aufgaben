@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Vertiefung: Projekt Trinkgeldrechner</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Give me Money</h1>
+      <form>
+        <label for="rechnung">Rechnungsbetrag:</label>
+        <div>
+          <img
+            src="./assets/image/icons8-geldbeutel-euro-40 1.png"
+            alt="euro"
+          />
+          <input id="rechnung" type="number" placeholder="€" />
+        </div>
+
+        <label for="Personenanzahl">Personenanzahl:</label>
+        <div>
+          <img
+            src="./assets/image/icons8-microsoft-people-48 1.png"
+            alt="People"
+          />
+          <input id="people" type="number" value="" />
+        </div>
+        <select id="serviceQulity">
+          <option>Wie war der Service</option>
+          <option value="bad">Schlecht</option>
+          <option value="middle">Mittlerer</option>
+          <option value="gut">Super</option>
+        </select>
+      </form>
+      <button type="button" onclick="money()">Berechnen</button>
+      <div class="textContent">
+        <p id="thinkGeldText"></p>
+        <p id="insgesameGeldText"></p>
+        <p id="jedeGeldText"></p>
+      </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

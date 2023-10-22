@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../font/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  margin-inline: auto;
+  margin-top: 180px;
+  width: 422px;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem gray;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  position: relative;
+}
+form {
+  width: 80%;
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  font-size: 13px;
+  gap: 1rem;
+  margin-inline: 2rem;
+}
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+}
+.expirationDate {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 0.5rem;
+}
+.expirationDate div {
+  display: flex;
+  flex-direction: column;
+}
+.cardInfo input {
+  padding-block: 0.5rem;
+  margin-top: 0.25rem;
+}
+.expirationDate input {
+  padding-block: 0.5rem;
+  margin-top: 0.25rem;
+}
+.submit {
+  width: 60%;
+  align-self: center;
+  padding-block: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  background-color: #e5696b;
+  border: none;
+  border-radius: 0.35rem;
+  color: white;
+}
+
+article {
+  position: absolute;
+  left: 26px;
+  top: -130px;
+}
+
+.image {
+  position: relative;
+  height: 200px;
+  width: 370px;
+  background-image: url(../image/div_output.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 1.25rem;
+}
+
+.number {
+  position: absolute;
+  left: 10px;
+  top: 95px;
+}
+
+.holder {
+  position: absolute;
+  left: 10px;
+  bottom: 14px;
+}
+
+.expires {
+  position: absolute;
+  right: 10px;
+  bottom: 14px;
+}

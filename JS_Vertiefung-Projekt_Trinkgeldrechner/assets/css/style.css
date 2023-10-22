@@ -1,0 +1,69 @@
+@font-face {
+  font-family: IstokWeb;
+  src: url(../fonts/IstokWeb-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 430px;
+  padding: 2rem 2rem;
+  margin: 3% auto;
+  background-color: #fdc692;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+  font-family: IstokWeb;
+}
+h1 {
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+label {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+}
+div {
+  display: flex;
+  margin-bottom: 2rem;
+}
+input {
+  padding: 0.25rem 0.25rem;
+  margin-left: 1rem;
+  border: none;
+  text-align: right;
+}
+select {
+  padding: 0.25rem 2rem;
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 20px;
+}
+button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #36b2eb;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 1rem;
+  text-align: left;
+  padding-left: 3rem;
+}

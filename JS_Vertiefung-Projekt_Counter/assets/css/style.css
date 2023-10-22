@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+}
+section {
+  width: 300px;
+  height: 360px;
+  margin: 10% auto;
+  background: linear-gradient(
+    45deg,
+    rgba(9, 9, 238, 1) 0%,
+    rgba(211, 28, 231, 1) 56%
+  );
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+div > input {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}

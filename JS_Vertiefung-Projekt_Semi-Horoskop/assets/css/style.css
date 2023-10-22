@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  align-items: center;
+  gap: 20px;
+}
+
+.stuctur {
+  /* display: none; */
+  width: 240px;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 2px black;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem 1rem;
+}
+
+h2,
+p {
+  text-align: left;
+}
+h2 {
+  color: brown;
+}
+button:active button:visited body > div {
+  display: block;
+}
