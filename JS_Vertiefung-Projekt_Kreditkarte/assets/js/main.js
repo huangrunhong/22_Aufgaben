@@ -10,9 +10,13 @@ const holder = document.getElementById("holder");
 
 const expires = document.getElementById("expires");
 
-function cardSubmit() {
-  const date = expirationDate.value;
+number.textContent = "#### #### #### ####";
 
+holder.textContent = "FULL NAME";
+
+expires.textContent = "MM/YY";
+
+function cardSubmit() {
   number.textContent = cardNumber.value;
 
   holder.textContent = cardHolder.value;
